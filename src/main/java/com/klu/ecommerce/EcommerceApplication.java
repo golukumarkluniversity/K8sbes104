@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class K8sbeS104Application extends SpringBootServletInitializer {
+public class EcommerceApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
@@ -14,6 +14,6 @@ public class K8sbeS104Application extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(K8sbeS104Application.class, args);
+        SpringApplication.run(EcommerceApplication.class, args);
     }
 }
